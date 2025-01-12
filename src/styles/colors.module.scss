@@ -1,0 +1,262 @@
+$primary-color-50: #ad84ce;
+$primary-color-100: #9c6bc4;
+$primary-color-200: #8c53ba;
+$primary-color-300: #7b3ab1;
+$primary-color-400: #6b22a7;
+$primary-color-500: #5A099D;
+$primary-color-600: #51088d;
+$primary-color-700: #48077e;
+$primary-color-800: #3f066e;
+$primary-color-900: #36055e;
+$primary-color: $primary-color-500;
+
+$primary-color-bg-opacity: rgba(red($primary-color), green($primary-color), blue($primary-color), 0.13);
+
+$secondary-color-50: #fef3e9;
+$secondary-color-100: #fcd8ba;
+$secondary-color-200: #fac698;
+$secondary-color-300: #f8ab6a;
+$secondary-color-400: #f79b4d;
+$secondary-color-500: #f58220;
+$secondary-color-600: #df761d;
+$secondary-color-700: #ae5c17;
+$secondary-color-800: #874812;
+$secondary-color-900: #67370d;
+$secondary-color: $secondary-color-500;
+
+$secondary-color-bg-opacity: rgba(red($secondary-color), green($secondary-color), blue($secondary-color), 0.13);
+
+$tertiary-color-50: #eeebf4;
+$tertiary-color-100: #ccc1de;
+$tertiary-color-200: #b3a3ce;
+$tertiary-color-300: #9078b8;
+$tertiary-color-400: #7a5eaa;
+$tertiary-color-500: #593695;
+$tertiary-color-600: #513188;
+$tertiary-color-700: #3f266a;
+$tertiary-color-800: #311e52;
+$tertiary-color-900: #25173f;
+$tertiary-color: $tertiary-color-500;
+
+$tertiary-color-bg-opacity: rgba(red($tertiary-color), green($tertiary-color), blue($tertiary-color), 0.13);
+
+$success-color-50: #edf7ee;
+$success-color-100: #c8e6c9;
+$success-color-200: #addaaf;
+$success-color-300: #87c98a;
+$success-color-400: #70bf73;
+$success-color-500: #4caf50;
+$success-color-600: #459f49;
+$success-color-700: #367c39;
+$success-color-800: #2a602c;
+$success-color-900: #204a22;
+$success-color: $success-color-500;
+
+
+$success-color-bg-opacity: rgba(red($success-color), green($success-color), blue($success-color), 0.13);
+
+$warning-color-50: #fff9e6;
+$warning-color-100: #ffecb2;
+$warning-color-200: #ffe28d;
+$warning-color-300: #ffd559;
+$warning-color-400: #ffcd39;
+$warning-color-500: #ffc107;
+$warning-color-600: #e8b006;
+$warning-color-700: #b58905;
+$warning-color-800: #8c6a04;
+$warning-color-900: #6b5103;
+$warning-color: $warning-color-500;
+
+$warning-color-bg-opacity: rgba(red($warning-color), green($warning-color), blue($warning-color), 0.13);
+
+$danger-color-50: #feeceb;
+$danger-color-100: #fcc5c1;
+$danger-color-200: #faa9a3;
+$danger-color-300: #f88178;
+$danger-color-400: #f6695e;
+$danger-color-500: #f44336;
+$danger-color-600: #de3d31;
+$danger-color-700: #ad3026;
+$danger-color-800: #86251e;
+$danger-color-900: #661c17;
+$danger-color: $danger-color-500;
+
+$danger-color-bg-opacity: rgba(red($danger-color), green($danger-color), blue($danger-color), 0.13);
+
+$neutral-color-50: #e7e7e7;
+$neutral-color-100: #b5b5b5;
+$neutral-color-200: #919191;
+$neutral-color-300: #5e5e5e;
+$neutral-color-400: #3f3f3f;
+$neutral-color-500: #0f0f0f;
+$neutral-color-600: #0e0e0e;
+$neutral-color-700: #0b0b0b;
+$neutral-color-800: #080808;
+$neutral-color-900: #060606;
+$neutral-color: $neutral-color-500;
+
+$neutral-color-bg-opacity: rgba(red($neutral-color), green($neutral-color), blue($neutral-color), 0.13);
+
+$bg-color-50: #fcfcfc;
+$bg-color-100: #f5f5f6;
+$bg-color-200: #f0f0f2;
+$bg-color-300: #e9e9ec;
+$bg-color-400: #e5e5e8;
+$bg-color-500: #dedee2;
+$bg-color-600: #cacace;
+$bg-color-700: #9e9ea0;
+$bg-color-800: #7a7a7c;
+$bg-color-900: #5d5d5f;
+$bg-color: $bg-color-500;
+
+$bg-color-bg-opacity: rgba(red($bg-color), green($bg-color), blue($bg-color), 0.13);
+
+$available-place-color: $bg-color-200;
+$available-place-color-hover: $bg-color-300;
+
+$reserved-place-color: $danger-color-500;
+$reserved-place-color-hover: $danger-color-600;
+
+$pending-place-color: $warning-color-500;
+$pending-place-color-hover: $warning-color-600;
+
+$selected-place-color: $tertiary-color-400;
+$selected-place-color-hover: $tertiary-color-500;
+
+$not-found-place-color: $neutral-color-100;
+$not-found-place-color-hover: $neutral-color-100;
+
+$available-lot-color: $success-color-400;
+$available-lot-color-hover: $success-color-500;
+
+$full-lot-color: $danger-color-400;
+$full-lot-color-hover: $danger-color-500;
+
+$block-lot-color: $neutral-color-50;
+$block-lot-color-hover: $neutral-color-50;
+
+$selected-lot-color: $tertiary-color-400;
+$selected-lot-color-hover: $tertiary-color-500;
+
+$selected-available-lot-color: $success-color-600;
+$selected-available-lot-color-hover: $success-color-600;
+
+$selected-full-lot-color: $danger-color-600;
+$selected-full-lot-color-hover: $danger-color-600;
+
+:export {
+  primaryColor: $primary-color;
+  primaryColor50: $primary-color-50;
+  primaryColor100: $primary-color-100;
+  primaryColor200: $primary-color-200;
+  primaryColor300: $primary-color-300;
+  primaryColor400: $primary-color-400;
+  primaryColor500: $primary-color-500;
+  primaryColor600: $primary-color-600;
+  primaryColor700: $primary-color-700;
+  primaryColor800: $primary-color-800;
+  primaryColor900: $primary-color-900;
+  primaryColorBgOpacity: $primary-color-bg-opacity;
+
+  secondaryColor: $secondary-color;
+  secondaryColor50: $secondary-color-50;
+  secondaryColor100: $secondary-color-100;
+  secondaryColor200: $secondary-color-200;
+  secondaryColor300: $secondary-color-300;
+  secondaryColor400: $secondary-color-400;
+  secondaryColor500: $secondary-color-500;
+  secondaryColor600: $secondary-color-600;
+  secondaryColor700: $secondary-color-700;
+  secondaryColor800: $secondary-color-800;
+  secondaryColor900: $secondary-color-900;
+  secondaryColorBgOpacity: $secondary-color-bg-opacity;
+
+  tertiaryColor: $tertiary-color;
+  tertiaryColor50: $tertiary-color-50;
+  tertiaryColor100: $tertiary-color-100;
+  tertiaryColor200: $tertiary-color-200;
+  tertiaryColor300: $tertiary-color-300;
+  tertiaryColor400: $tertiary-color-400;
+  tertiaryColor500: $tertiary-color-500;
+  tertiaryColor600: $tertiary-color-600;
+  tertiaryColor700: $tertiary-color-700;
+  tertiaryColor800: $tertiary-color-800;
+  tertiaryColor900: $tertiary-color-900;
+  tertiaryColorBgOpacity: $tertiary-color-bg-opacity;
+
+  successColor: $success-color;
+  successColor50: $success-color-50;
+  successColor100: $success-color-100;
+  successColor200: $success-color-200;
+  successColor300: $success-color-300;
+  successColor400: $success-color-400;
+  successColor500: $success-color-500;
+  successColor600: $success-color-600;
+  successColor700: $success-color-700;
+  successColor800: $success-color-800;
+  successColor900: $success-color-900;
+  successColorBgOpacity: $success-color-bg-opacity;
+
+  warningColor: $warning-color;
+  warningColor50: $warning-color-50;
+  warningColor100: $warning-color-100;
+  warningColor200: $warning-color-200;
+  warningColor300: $warning-color-300;
+  warningColor400: $warning-color-400;
+  warningColor500: $warning-color-500;
+  warningColor600: $warning-color-600;
+  warningColor700: $warning-color-700;
+  warningColor800: $warning-color-800;
+  warningColor900: $warning-color-900;
+  warningColorBgOpacity: $warning-color-bg-opacity;
+
+  dangerColor: $danger-color;
+  dangerColor50: $danger-color-50;
+  dangerColor100: $danger-color-100;
+  dangerColor200: $danger-color-200;
+  dangerColor300: $danger-color-300;
+  dangerColor400: $danger-color-400;
+  dangerColor500: $danger-color-500;
+  dangerColor600: $danger-color-600;
+  dangerColor700: $danger-color-700;
+  dangerColor800: $danger-color-800;
+  dangerColor900: $danger-color-900;
+  dangerColorBgOpacity: $danger-color-bg-opacity;
+
+  neutralColor: $neutral-color;
+  neutralColor50: $neutral-color-50;
+  neutralColor100: $neutral-color-100;
+  neutralColor200: $neutral-color-200;
+  neutralColor300: $neutral-color-300;
+  neutralColor400: $neutral-color-400;
+  neutralColor500: $neutral-color-500;
+  neutralColor600: $neutral-color-600;
+  neutralColor700: $neutral-color-700;
+  neutralColor800: $neutral-color-800;
+  neutralColor900: $neutral-color-900;
+  neutralColorBgOpacity: $neutral-color-bg-opacity;
+
+  bgColor: $bg-color;
+  bgColor50: $bg-color-50;
+  bgColor100: $bg-color-100;
+  bgColor200: $bg-color-200;
+  bgColor300: $bg-color-300;
+  bgColor400: $bg-color-400;
+  bgColor500: $bg-color-500;
+  bgColor600: $bg-color-600;
+  bgColor700: $bg-color-700;
+  bgColor800: $bg-color-800;
+  bgColor900: $bg-color-900;
+  bgColorBgOpacity: $bg-color-bg-opacity;
+
+  availablePlaceColor: $available-place-color;
+  availablePlaceColorHover: $available-place-color-hover;
+  reservedPlaceColor: $reserved-place-color;
+  reservedPlaceColorHover: $reserved-place-color-hover;
+  pendingPlaceColor: $pending-place-color;
+  pendingPlaceColorHover: $pending-place-color-hover;
+  selectedPlaceColor: $selected-place-color;
+  selectedPlaceColorHover: $selected-place-color-hover;
+  notFoundPlaceColor: $not-found-place-color;
+  notFoundPlaceColorHover: $not-found-place-color-hover;
+}

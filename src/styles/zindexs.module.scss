@@ -1,0 +1,17 @@
+$z-index-background: 0;
+$z-index-content: 50;
+$z-index-navbar: 100;
+$z-index-sidebar-background: 200;
+$z-index-sidebar: 250;
+$z-index-modal-background: 300;
+$z-index-modal: 350;
+$z-index-loading: 400;
+
+:export {
+  zIndexNavbar: $z-index-navbar;
+  zIndexModalBackground: $z-index-modal-background;
+  zIndexModal: $z-index-modal;
+  zIndexLoading: $z-index-loading;
+  zIndexSidebarBackground: $z-index-sidebar-background;
+  zIndexSidebar: $z-index-sidebar;
+}

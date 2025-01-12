@@ -1,0 +1,19 @@
+// Valores das telas + 1px
+
+$mobile-s: 321px;
+$mobile-m: 376px;
+$mobile-l: 426px;
+$tablet: 769px;
+$laptop: 1025px;
+$laptop-l: 1441px;
+$desktop: 1919px;
+
+:export {
+  mobileS: $mobile-s;
+  mobileM: $mobile-m;
+  mobileL: $mobile-l;
+  tablet: $tablet;
+  laptop: $laptop;
+  laptopL: $laptop-l;
+  desktop: $desktop;
+}
